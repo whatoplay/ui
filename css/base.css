@@ -1,0 +1,27 @@
+button.btn-base {
+    font-weight: 600;
+}
+
+    button.btn-base:disabled {
+        color: #8B8D95;
+        background-color: #424242;
+    }
+
+
+button.btn-pri {
+    background-color: #22B07D;
+    color: #F5F7FF;
+}
+
+button.btn-sec {
+    color: #22B07D;
+}
+
+
+@media (max-width: 639px) {
+
+}
+
+@media (min-width: 640px) {
+    
+}

@@ -1,0 +1,31 @@
+body {
+    font-size: 16px;
+    font-optical-sizing: auto;
+}
+
+
+.text-pri {
+    color: #F5F7FF !important;
+}
+
+.text-sec {
+    color: #D0D2DB !important;
+}
+
+.text-tri {
+    color: #8B8D95 !important;
+}
+
+
+.content {}
+
+    .content a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+@media (max-width: 639px) {}
+
+@media (min-width: 640px) {}
+
+
