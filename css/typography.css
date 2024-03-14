@@ -10,6 +10,10 @@ body {
         text-decoration: none;
     }
 
+        .content a:hover {
+            color: #00945B;
+        }
+
 @media (max-width: 639px) {}
 
 @media (min-width: 640px) {}

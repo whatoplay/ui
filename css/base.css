@@ -1,5 +1,5 @@
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     background-color: #1F1D2B;
 }
 
@@ -17,6 +17,11 @@ body {
     box-sizing: border-box;
 }
 
+
+/*
+    CONTENT BOXES
+*/
+
 .box-main {
     background-color: #252836;
 }
@@ -24,6 +29,10 @@ body {
 .box-sup {
     background-color: #212230;
 }
+
+/*
+    BUTTONS
+*/
 
 
 button.btn-base {
@@ -45,6 +54,22 @@ button.btn-sec {
     color: #22B07D;
 }
 
+button.btn-hea {
+    color: #EC2F61;
+}
+
+
+/*
+    BUTTON > ANCHORS
+*/
+
+a.btn-base {
+    font-weight: 600;
+}
+
+    a.btn-base:hover {
+
+    }
 
 @media (max-width: 639px) {
 
