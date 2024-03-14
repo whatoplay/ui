@@ -14,34 +14,19 @@
         </style>
 
 
-        <style>
-            body {
-                font-family: "Poppins", sans-serif;
-                background-color: #1F1D2B;
-            }
-
-                .contain {
-                    padding: 12px;
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            pri: '#F5F7FF',
+                            sec: '#D0D2DB',
+                            tri: '#8B8D95'
+                        }
+                    }
                 }
-
-            .content {
-                max-width: 704px;
-                width: 100%;
             }
-
-            .ig-container {
-                margin: 24px auto 24px auto;
-                box-sizing: border-box;
-            }
-
-            .box-main {
-                background-color: #252836;
-            }
-
-            .box-sup {
-                background-color: #212230;
-            }
-        </style>
+        </script>
 
     </head>
     <body>
@@ -107,6 +92,12 @@
                 <h1 class="text-sec text-2xl">Texts</h1>
                 <p class="text-sec">There will only be three types of texts: 400 (normal), <span class="font-semibold">600 (semibold)</span>, and <span class="font-bold">bold (800)</span>.</p>
                 <p class="text-sec">Lorem Ipsum is <a href="">simply dummy text</a> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <ul>
+                    <li>Fruits and vegetables</li>
+                    <li></li>
+                </ul>
+
+                <h2 class="text-tri">Secondary info</h2>
                 <p class="text-tri">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
 

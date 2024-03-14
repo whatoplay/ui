@@ -1,3 +1,31 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #1F1D2B;
+}
+
+    .contain {
+        padding: 12px;
+    }
+
+.content {
+    max-width: 704px;
+    width: 100%;
+}
+
+.ig-container {
+    margin: 24px auto 24px auto;
+    box-sizing: border-box;
+}
+
+.box-main {
+    background-color: #252836;
+}
+
+.box-sup {
+    background-color: #212230;
+}
+
+
 button.btn-base {
     font-weight: 600;
 }
