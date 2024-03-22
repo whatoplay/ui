@@ -8,7 +8,7 @@ body {
     }
 
 .content {
-    max-width: 704px;
+    max-width: 640px;
     width: 100%;
 }
 
@@ -67,9 +67,26 @@ a.btn-base {
     font-weight: 600;
 }
 
-    a.btn-base:hover {
 
+
+/*
+    CONTENT WIDGETS
+*/
+
+a.post-wid {}
+
+a.post-nar {}
+
+    a.post-wid:hover, a.post-nar:hover {
+        background-color: #212230;
+        transition: linear 0.2s;
     }
+
+    a.post-wid:hover h2, a.post-nar:hover h2 {
+        color: #F5F7FF;
+        transition: linear 0.2s;
+    }
+
 
 @media (max-width: 639px) {
 
