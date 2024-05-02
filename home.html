@@ -24,7 +24,9 @@
                             tri: '#8B8D95',
                             sep: '#2D303D',
                             mai: '#252836',
-                            sup: '#212230'
+                            sup: '#212230',
+                            goo: '#AEAEAE',
+                            fac: '#1877F2',
                         },
                         aspecRatio: {
                             '4/3' : '4 / 3',
@@ -38,18 +40,13 @@
     <body>
         <div class="contain">
 
-            <div class="content ig-container">
-                <h2 class="text-sec font-semibold text-lg mb-1">Popular game lists</h2>
-                <ul class="list-none flex flex-wrap gap-x-10 gap-y-2">
-                    <li><a href="#" class="text-sm font-semibold">New iOS Games</a></li>
-                    <li><a href="#" class="text-sm font-semibold">Best PS5 Games</a></li>
-                    <li><a href="#" class="text-sm font-semibold">Upcoming Switch Games</a></li>
-                    <li><a href="#" class="text-sm font-semibold">Best PS4 Games</a></li>
-                    <li><a href="#" class="text-sm font-semibold">New Android games</a></li>
-                </ul>
+            <div class="content ig-container pb-4">
+                <h2 class="text-2xl font-semibold text-pri leading-snug mb-1">Your go-to for great gaming finds</h2>
+                <p class="text-tri text-sm leading-relaxed">Discover new releases, connect with other gamers, and discuss video games. 
+                    <a href="#" class="font-bold">Join our community now!</a></p>
             </div>
 
-            <div class="content ig-container aspect-[4/3] rounded-lg overflow-hidden shadow mb-16 bg-[url('https://cdn2.whatoplay.com/featured/arcrunnergotd.webp')] bg-center relative">
+            <div class="content ig-container aspect-[4/3] rounded-lg overflow-hidden shadow mb-8 bg-[url('https://cdn2.whatoplay.com/featured/arcrunnergotd.webp')] bg-center relative">
                 <div class="absolute top-6 left-6 bg-[#330033] shadow rounded-lg">
                     <h2 class="uppercase text-sm font-bold tracking-wide text-[#F38868] px-3 py-1.5">Game of the Day</h2>
                 </div>
@@ -86,7 +83,52 @@
 
                     <p class="text-sm font-normal text-[#F38868] leading-normal">An action-packed roguelike set in a Cyberpunk future. Use augmentations and an array of futuristic weapons to take down a rogue AI.</p>
                 </div>
-            </div>            
+            </div>
+
+            <div class="content ig-container rounded-lg overflow-hidden shadow mb-8">
+                <div class="box-main py-3 px-6">
+                    <h2 class="font-semibold text-lg mb-3">
+                        <a href="#" class="!text-sec">Games releasing today</a>
+                    </h2>
+
+                    <div class="">
+                        <ul class="flex">
+                            <li class="block w-[136px] ml-[-12px]"><!-- first item in list offset -->
+                                <a href="#" class="block p-3 hover:bg-sup rounded-lg">
+                                    <div class="aspect-square overflow-hidden rounded-lg bg-[url('https://cdn2.whatoplay.com/boxart/sqr/150x/118741-1679532642535.webp')] bg-cover"></div>
+                                    <h3 class="font-semibold text-sm truncate text-ellipsis overflow-hidden text-pri pt-2">Armed and Gelatinous: Couch Edition</h3>
+                                    <div class="text-tri font-semibold text-xs">PC</div>
+                                </a>
+                            </li>
+                            <li class="block w-[136px]">
+                                <a href="#" class="block p-3 hover:bg-sup rounded-lg">
+                                    <div class="aspect-square overflow-hidden rounded-lg bg-[url('https://cdn2.whatoplay.com/boxart/sqr/150x/118741-1679532642535.webp')] bg-cover"></div>
+                                    <h3 class="font-semibold text-sm truncate text-ellipsis overflow-hidden text-pri pt-2">Armed and Gelatinous: Couch Edition</h3>
+                                    <div class="text-tri font-semibold text-xs">Switch</div>
+                                </a>
+                            </li>
+                            <li class="block w-[136px]">
+                                <a href="#" class="block p-3 hover:bg-sup rounded-lg">
+                                    <div class="aspect-square overflow-hidden rounded-lg bg-[url('https://cdn2.whatoplay.com/boxart/sqr/150x/151796-1710470914.webp')] bg-cover"></div>
+                                    <h3 class="font-semibold text-sm truncate text-ellipsis overflow-hidden text-pri pt-2">MotoGP 24</h3>
+                                    <div class="text-tri font-semibold text-xs">PC</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content ig-container">
+                <h2 class="text-sec font-semibold text-lg mb-2">Trending game lists</h2>
+                <ul class="list-none flex flex-wrap gap-x-8 gap-y-2">
+                    <li><a href="#" class="text-[14px] font-normal">New iOS Games</a></li>
+                    <li><a href="#" class="text-[14px] font-normal">Best PS5 Games</a></li>
+                    <li><a href="#" class="text-[14px] font-normal">Upcoming Switch Games</a></li>
+                    <li><a href="#" class="text-[14px] font-normal">Best PS4 Games of All Time</a></li>
+                    <li><a href="#" class="text-[14px] font-normal">New Android games</a></li>
+                </ul>
+            </div>
         </div>
     </body>
 </html>

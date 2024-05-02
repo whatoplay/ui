@@ -1,0 +1,30 @@
+
+            <section class="hero p-16">
+                
+                <div class="hero-log bg-sup p-8 rounded">
+                    <h1 class="text-pri text-2xl font-bold mb-2">Your go-to for great gaming finds</h1>
+                    <p class="text-tri text-md">Always have something new to play with our daily game recommendations</p>
+
+                    <div class="log-opt w-[320px]">
+                        <button class="btn-base btn-goo py-1.5 px-3 text-xs rounded shadow">Sign up with Google</button>
+                        <button class="btn-base btn-fac py-1.5 px-3 text-xs rounded shadow">Sign up with Facebook</button>
+                        <button class="btn-base btn-pri py-1.5 px-3 text-xs rounded shadow">Sign up with Email</button>
+
+                        <p class="">Already a member? <a href="#">Login</a></p>
+                    </div>
+                </div>
+
+
+                <div class="hero-inf flex">
+                    <div class="hero-box hero-con p-4 bg-sup rounded-lg">
+                        <h3 class="text-sec text-lg mb-2">Connect</h3>
+                        <p class="text-sec text-xs leading-snug">
+                        Join our community of gamers! discuss video games, and discover new releases.</p>
+                    </div>
+
+                    <div class="hero-box hero-rec p-4 bg-sup rounded-lg">
+                        <h3 class="text-pri text-lg mb-2">Recommend</h3>
+                        <p class="text-sec text-xs leading-snug">Help gamers find their next gem, write a review of games that you've played!</p>
+                    </div>
+                </div>
+            </section>
