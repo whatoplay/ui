@@ -5,12 +5,12 @@ body {
 
 .content {}
 
-    .content a {
+    .content a, .link-gen {
         color: #22B07D;
         text-decoration: none;
     }
 
-        .content a:hover {
+        .content a:hover, a.link-gen:hover {
             color: #00945B;
         }
 
