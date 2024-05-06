@@ -14,8 +14,29 @@ body {
             color: #00945B;
         }
 
+
+
+/*
+    RELATED LISTS
+*/
+
+.related-list ul li {
+    padding: 4px 0px 4px 0;
+}
+
+    .related-list ul li a {
+        color: #22B07D;
+    }
+
+        .related-list ul li a:hover {
+            color: #009458;
+        }
+
+
 @media (max-width: 639px) {}
 
 @media (min-width: 640px) {}
+
+
 
 

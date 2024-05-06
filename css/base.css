@@ -3,10 +3,6 @@ body {
     background-color: #1F1D2B;
 }
 
-    .contain {
-        padding: 12px;
-    }
-
 .content {
     max-width: 680px;
     width: 100%;
@@ -37,6 +33,7 @@ body {
 
 button.btn-base {
     font-weight: 600;
+    line-height: 1;
 }
 
     button.btn-base:disabled {
