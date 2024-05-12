@@ -6,12 +6,12 @@ body {
 .content {}
 
     .content a, .link-gen {
-        color: #22B07D;
+        color: #34D399;
         text-decoration: none;
     }
 
         .content a:hover, a.link-gen:hover {
-            color: #00945B;
+            color: #059669;
         }
 
 
@@ -25,11 +25,11 @@ body {
 }
 
     .related-list ul li a {
-        color: #22B07D;
+        color: #34D399;
     }
 
         .related-list ul li a:hover {
-            color: #009458;
+            color: #059669;
         }
 
 

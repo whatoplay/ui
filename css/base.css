@@ -9,7 +9,7 @@ body {
 }
 
 .ig-container {
-    margin: 24px auto 24px auto;
+    margin: 0 auto 0 auto;
     box-sizing: border-box;
 }
 
@@ -43,12 +43,12 @@ button.btn-base {
 
 
 button.btn-pri {
-    background-color: #22B07D;
+    background-color: #34D399;
     color: #F5F7FF;
 }
 
 button.btn-sec {
-    color: #22B07D;
+    color: #34D399;
 }
 
 button.btn-hea {
