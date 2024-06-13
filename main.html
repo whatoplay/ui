@@ -57,7 +57,8 @@
         </header>
 
         <div class="grid grid-cols-12 p-4">
-            <section class="contain-left col-span-12 md:col-span-2 pt-3">
+
+            <section class="contain-left col-span-12 lg:col-span-2 pt-3 hidden lg:block">
                 <nav class="menu-pri py-4 px-2 rounded-lg md:max-w-[336px]">
                     <ul class="text-base font-semibold space-y-2">
                         <li>
@@ -101,59 +102,63 @@
             </section>
 
 
-            <main class="grid grid-cols-12 col-span-12 md:col-span-10 max-w-7xl gap-8 mx-auto">
+            <main class="grid grid-cols-12 col-span-12 md:col-span-10 max-w-7xl gap-x-8 mx-auto">
+                <div class="col-span-12 flex mb-2">
+                    <div>
+                        <div class="mb-2">
+                            <h1 class="grow shrink text-3xl md:text-5xl font-normal text-pri !leading-tight mb-2">Sky: Children of the Light</h1>
+                        </div>
+
+                        <div class="flex text-sec text-sm mb-2">
+                            <ul class="flex gap-x-2 mr-2">
+                                <li><a href="#">PC</a></li>
+                                <li><a href="#">Switch</a></li>
+                                <li><a href="#">PS4</a></li>
+                                <li><a href="#">Android</a></li>
+                                <li><a href="#">iOS</a></li>
+                            </ul>
+
+                            &bull;
+                                <span class="mx-2">2019</span>
+                            &bull; 
+
+                            <a href="#" class="mx-2">E10+</a>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-span-12 lg:col-span-8">
-                    <div class="my-6">
-                        <div class="">
-                            <div class="mb-4">
-                                <div class="flex mb-2">
-                                    <h1 class="shrink grow text-3xl md:text-5xl font-normal text-pri">Sky: Children of the Light</h1>
-                                    <div class="">
-                                        <span class="material-symbols-rounded text-2xl text-act">bookmark</span>
-                                    </div>
-                                </div>
-                                <div class="flex text-sec text-sm mb-2">
-                                    <ul class="flex gap-x-2 mr-2">
-                                        <li><a href="#">PC</a></li>
-                                        <li><a href="#">Switch</a></li>
-                                        <li><a href="#">PS4</a></li>
-                                        <li><a href="#">Android</a></li>
-                                        <li><a href="#">iOS</a></li>
-                                    </ul>
-
-                                    &bull; 
-                                        <span class="mx-2">2019</span>
-                                    &bull; 
-
-                                    <a href="#" class="mx-2">E10+</a>
-                                </div>
-                            </div>
-                            
+                    <div class="mb-10 lg:mb-12">
+                        <div class="relative">
                             <figure class="mb-4">
                                 <img src="img/sample01.webp" alt="">
                             </figure>
+                        </div>
+                        
 
-                            <div class="flex items-start">
-                                <div class="grow-0 shrink-0 w-[100px] md:w-[150px] overflow-hidden mr-4 md:mr-6 rounded-lg overflow-hidden">
-                                    <img src="https://cdn2.whatoplay.com/boxart/reg/150x/42375-1689754767.webp" alt="Sky: Children of the Light">
+                        <div class="flex items-start">
+                            <div class="grow-0 shrink-0 w-[125px] md:w-[150px] overflow-hidden mr-4 md:mr-6 rounded-lg overflow-hidden">
+                                <img src="https://cdn2.whatoplay.com/boxart/reg/150x/42375-1689754767.webp" alt="Sky: Children of the Light">
+                            </div>
+        
+                            <div class="shrink grow">
+                                <p class="text-sm text-tri mb-4">Welcome to the enchanting world of Sky, a beautifully-animated kingdom waiting to be explored by you and your loved ones.</p>
+
+                                <div class="flex flex-wrap items-center gap-2 text-xs mb-4">
+                                    <a href="#" class="text-sec font-semibold border border-sec py-1 px-3 rounded-2xl hover:text-act hover:border-act">Adventure</a>
+                                    <a href="#" class="text-sec font-semibold border border-sec py-1 px-3 rounded-2xl hover:text-act hover:border-act">RPG</a>
                                 </div>
-            
-                                <div class="shrink grow">
-                                    <p class="text-sm text-tri mb-4">Welcome to the enchanting world of Sky, a beautifully-animated kingdom waiting to be explored by you and your loved ones.</p>
 
-                                    <div class="flex flex-wrap items-center gap-2 text-xs mb-4">
-                                        <a href="#" class="text-sec font-semibold border border-sec py-1 px-3 rounded-2xl hover:text-act hover:border-act">Adventure</a>
-                                        <a href="#" class="text-sec font-semibold border border-sec py-1 px-3 rounded-2xl hover:text-act hover:border-act">RPG</a>
-                                    </div>
+                                <div class="flex">
+                                    <a href="#" rel="sponsored noopener" target="_blank" class="block w-[125px] text-xs font-bold text-center text-[#212121] leading-none py-2 rounded bg-gradient-to-r from-yellow-500 to-amber-500 hover:from-yellow-600 hover:to-amber-600 mr-4">Buy on Amazon</a>
 
-                                    <a href="#" rel="sponsored noopener" target="_blank" class="block w-[150px] text-sm font-semibold text-center !text-[#212121] leading-none py-2 rounded bg-gradient-to-r from-yellow-500 to-amber-500 hover:from-yellow-600 hover:to-amber-600">Buy on Amazon</a>
+                                    <!-- <div class="material-symbols-rounded bg-mai text-act leading-none text-lg p-2 rounded-full">bookmark</div>  -->
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="mb-10">
-                        <h2 class="text-sec font-semibold text-xl">Platforms</h2>
+                    <section class="mb-10 lg:mb-12">
+                        <h2 class="text-sec font-normal text-2xl">Platforms</h2>
                         <hr class="mt-2 mb-4 border-sep">
                         
                         <ul class="grid grid-cols-12 gap-4">
@@ -222,9 +227,9 @@
                                 </div>
                              </li>
                         </ul>
-                    </div>
+                    </section>
 
-                    <div class="mb-10">
+                    <section class="mb-10 lg:mb-12">
                         <div class="flex flex-wrap md:flex-nowrap gap-4">
                             <div class="grow shrink w-full">
                                 <h3 class="text-sm font-semibold text-sec mb-1">Downloadable Content</h3>
@@ -241,19 +246,22 @@
                                 <p class="text-tri text-xs">This game includes in-game purchases. For more info, visit our <a href="https://whatoplay.com/post/microtransactions/">microtransactions guide</a>.</p>
                             </div>
                         </div>
-                    </div>
+                    </section>
 
-                    <section class="mb-10">
+                    <section class="mb-10 lg:mb-12">
                         <div class="flex items-center">
-                            <h2 class="shrink grow text-sec font-semibold text-xl">Critic Reviews</h2>
+                            <h2 class="grow shrink text-sec font-normal text-2xl">Critic Reviews</h2>
 
                             <a href="#" class="text-sm font-bold text-act">View all</a>
                         </div>
                         
                         <hr class="mt-2 mb-4 border-sep">
 
+                        <!-- START: If no reviews, display this message -->
+                        <p class="text-base text-tri mb-4">This game hasn't been reviewed by our <a href="#" class="text-act">accredited critics yet</a>. Check back at a later date for their expert opinions!</p>
+                        <!-- END -->
+
                         <ul class="grid grid-cols-12 gap-4 mb-6">
-                        
                             <li class="flex flex-col col-span-12 md:col-span-6 rounded-lg shadow overflow-hidden bg-mai">
                                 <div class="flex items-center border-b border-sep p-4">
                                     <div class="w-10 h-10 shrink-0 grow-0 mr-4"><img src="https://cdn2.whatoplay.com/publications/gamespot.webp" class="w-full"></div>
@@ -378,20 +386,77 @@
                         </a>
                     </section>
 
-                    <section class="mb-10">
+                    <section class="mb-10 lg:mb-12">
                         <div class="flex items-center">
-                            <h2 class="shrink grow text-sec font-semibold text-xl">Community Reviews</h2>
+                            <h2 class="grow shrink text-sec font-normal text-2xl">Player Reviews</h2>
+                        </div>
+
+                        <hr class="mt-2 mb-4 border-sep">
+
+                        <ul class="bg-mai p-4 rounded-lg overflow-hidden">
+                            <li>
+                                <a href="#" class="flex items-center py-3">
+                                    <div class="grow-0 shrink-0 w-10 h-10 aspect-square bg-[url(https://cdn2.whatoplay.com/source/source-1658414574-18.png)] bg-cover mr-4"></div>
+                                    <div class="grow shrink">
+                                        <h3 class="text-pri">Steam</h3>
+                                        <div class="text-xs text-tri">73996 ratings</div>
+                                    </div>
+                                    <div class="grow-0 shrink-0 text-pri shrink-0 grow-0 text-2xl font-bold">9.6</div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="flex items-center py-3">
+                                    <div class="grow-0 shrink-0 w-10 h-10 aspect-square bg-[url(https://cdn2.whatoplay.com/source/source-1658399207-13.png)] bg-cover mr-4"></div>
+                                    <div class="grow shrink">
+                                        <h3 class="text-pri">Xbox Official Store</h3>
+                                        <div class="text-xs text-tri">3500 ratings</div>
+                                    </div>
+                                    <div class="grow-0 shrink-0 text-pri shrink-0 grow-0 text-2xl font-bold">9.0</div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="flex items-center py-3">
+                                    <div class="grow-0 shrink-0 w-10 h-10 aspect-square bg-[url(https://cdn2.whatoplay.com/source/gamefaqs.png)] bg-cover mr-4"></div>
+                                    <div class="grow shrink">
+                                        <h3 class="text-pri">Game Faqs</h3>
+                                        <div class="text-xs text-tri">143 ratings</div>
+                                    </div>
+                                    <div class="grow-0 shrink-0 text-pri shrink-0 grow-0 text-2xl font-bold">8.4</div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="flex items-center py-3">
+                                    <div class="grow-0 shrink-0 w-10 h-10 aspect-square bg-[url(https://cdn2.whatoplay.com/logo_v2.png)] bg-cover mr-4"></div>
+                                    <div class="grow shrink">
+                                        <h3 class="text-pri">whatoplay</h3>
+                                        <div class="text-xs text-tri">39 ratings</div>
+                                    </div>
+                                    <div class="grow-0 shrink-0 text-pri shrink-0 grow-0 text-2xl font-bold">8.9</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="mb-10 lg:mb-12">
+                        <div class="flex items-center">
+                            <h2 class="grow shrink text-sec font-normal text-2xl">Community Reviews</h2>
                             <a href="#" class="text-sm font-bold text-act">View all</a>
                         </div>
 
                         <hr class="mt-2 mb-4 border-sep">
 
+                        <!-- START: If no reviews, display this message -->
+                        <p class="text-base text-tri mb-4">Be the first to review this game! Help others discover if this is right game for them.<p>
+                        <!-- END -->
                         <ul class="grid grid-cols-12 gap-4 mb-6">
                             <li class="flex flex-col col-span-12 md:col-span-6 rounded-lg shadow overflow-hidden bg-mai">
                                 <div class="flex items-center border-b border-sep p-4">
                                     <div class="w-10 h-10 shrink-0 grow-0 mr-4 rounded-full overflow-hidden"><img src="https://cdn6.whatoplay.com/user/256x/Xy6gVcHxR/profile-oW23GZcJ7C4Pxdt3S5Pwsi9TLjWBRQAG.webp" class="w-full"></div>
                                     <div class="grow shrink">
-                                        <h4><a href="#" class="text-pri">jamesmarcello19</a></h4>
+                                        <h4><a href="#" class="text-pri line-clamp-1 mr-3">jamesmarcello19</a></h4>
                                         <div class="text-tri text-xs">Jun 3, 2024</div>
                                     </div>
                                     <div class="text-pri shrink-0 grow-0 text-2xl font-bold">9.5</div>
@@ -412,7 +477,7 @@
                                 <div class="flex items-center border-b border-sep p-4">
                                     <div class="w-10 h-10 shrink-0 grow-0 mr-4 rounded-full overflow-hidden"><img src="https://cdn6.whatoplay.com/user/256x/mgBw9Rh2L/profile-e6ju6HmvvHLH4f4n0vCpFV1Nq0XKBks.webp" class="w-full"></div>
                                     <div class="grow shrink">
-                                        <h4><a href="#" class="text-pri">abigail</a></h4>
+                                        <h4><a href="#" class="text-pri line-clamp-1 mr-3">abigail</a></h4>
                                         <div class="text-tri text-xs">Sep 21, 2023</div>
                                     </div>
                                     <div class="text-pri shrink-0 grow-0 text-2xl font-bold">10</div>
@@ -433,7 +498,7 @@
                                 <div class="flex items-center border-b border-sep p-4">
                                     <div class="w-10 h-10 shrink-0 grow-0 mr-4 rounded-full overflow-hidden"><img src="https://cdn6.whatoplay.com/user/256x/FeHiaYAPI/profile-7RAcml7dx4Sp0VtHik1EVYcm2v477is.webp" class="w-full"></div>
                                     <div class="grow shrink">
-                                        <h4><a href="#" class="text-pri">livjean</a></h4>
+                                        <h4><a href="#" class="text-pri line-clamp-1 mr-3">livjean</a></h4>
                                         <div class="text-tri text-xs">Jun 12, 2022</div>
                                     </div>
                                     <div class="text-pri shrink-0 grow-0 text-2xl font-bold">6.3</div>
@@ -454,7 +519,7 @@
                                 <div class="flex items-center border-b border-sep p-4">
                                     <div class="w-10 h-10 shrink-0 grow-0 mr-4 rounded-full overflow-hidden"><img src="https://cdn6.whatoplay.com/user/256x/DTHlYEpO2/profile-1VJ_wSgEt1l56xegmDLSi8mCL9TtFrdb.webp" class="w-full"></div>
                                     <div class="grow shrink">
-                                        <h4><a href="#" class="text-pri">gaminginthemoment</a></h4>
+                                        <h4><a href="#" class="text-pri line-clamp-1 mr-3">gaminginthemoment</a></h4>
                                         <div class="text-tri text-xs">Mar 13, 2021</div>
                                     </div>
                                     <div class="text-pri shrink-0 grow-0 text-2xl font-bold">6.5</div>
@@ -470,64 +535,45 @@
                                     <div class=""><a href="#" class="text-act">Read full review</a></div>
                                 </div>
                             </li>
+
+                            <li class="flex flex-col col-span-12 md:col-span-6 rounded-lg shadow overflow-hidden bg-mai">
+                                <div class="flex items-center border-b border-sep p-4">
+                                    <div class="w-10 h-10 shrink-0 grow-0 mr-4 rounded-full overflow-hidden"><img src="https://cdn6.whatoplay.com/user/256x/e4OXCnMfk/profile-S4D_3pDNWcgLlRMwJpGyZHB6Ts9fcSm4.webp" class="w-full"></div>
+                                    <div class="grow shrink">
+                                        <h4><a href="#" class="text-pri line-clamp-1 mr-3">muhammad naufal arfan zaifuzzaman (NAUFAL STRONG)</a></h4>
+                                        <div class="text-tri text-xs">Mar 13, 2021</div>
+                                    </div>
+                                    <div class="text-pri shrink-0 grow-0 text-2xl font-bold">10</div>
+                                </div>
+
+                                <div class="p-4 flex text-xs">
+                                    <div class="grow shrink text-tri">Reviewed on Android</div>
+                                </div>
+                            </li>
+
+                            <li class="flex flex-col col-span-12 md:col-span-6 rounded-lg shadow overflow-hidden bg-mai">
+                                <div class="flex items-center border-b border-sep p-4">
+                                    <div class="w-10 h-10 shrink-0 grow-0 mr-4 rounded-full overflow-hidden"><img src="https://cdn6.whatoplay.com/user/256x/qzHFlJ3ce/profile-SeyjwWVHHArn63wZOkHsHn8an6B4Rfi.webp" class="w-full"></div>
+                                    <div class="grow shrink">
+                                        <h4><a href="#" class="text-pri line-clamp-1 mr-3">Milton Murillo</a></h4>
+                                        <div class="text-tri text-xs">Feb 20, 2024</div>
+                                    </div>
+                                    <div class="text-pri shrink-0 grow-0 text-2xl font-bold">9.5</div>
+                                </div>
+
+                                <div class="p-4 flex text-xs">
+                                    <div class="grow shrink text-tri">Reviewed on iOS</div>
+                                </div>
+                            </li>
                         </ul>
 
-                        <!-- <div class="widget-content px-4 md:px-6 py-3">
-                            <h3 class="text-sec text-base mb-2">Aggregate Player Reviews</h3>
-                            <ul>
-                                <li>
-                                    <a href="#" class="flex items-center py-2">
-                                        <div class="grow-0 shrink-0 w-10 h-10 aspect-square bg-[url(https://cdn2.whatoplay.com/source/source-1658414574-18.png)] bg-cover mr-4"></div>
-                                        <div class="grow shrink">
-                                            <h4 class="font-semibold text-sec">Steam</h4>
-                                            <div class="text-xs text-tri">73996 ratings</div>
-                                        </div>
-                                        <div class="grow-0 shrink-0 text-lg text-sec font-bold">9.6</div>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="flex items-center py-2">
-                                        <div class="grow-0 shrink-0 w-10 h-10 aspect-square bg-[url(https://cdn2.whatoplay.com/source/source-1658399207-13.png)] bg-cover mr-4"></div>
-                                        <div class="grow shrink">
-                                            <h4 class="font-semibold text-sec">Xbox Official Store</h4>
-                                            <div class="text-xs text-tri">3500 ratings</div>
-                                        </div>
-                                        <div class="grow-0 shrink-0 text-lg text-sec font-bold">9.0</div>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="flex items-center py-2">
-                                        <div class="grow-0 shrink-0 w-10 h-10 aspect-square bg-[url(https://cdn2.whatoplay.com/source/gamefaqs.png)] bg-cover mr-4"></div>
-                                        <div class="grow shrink">
-                                            <h4 class="font-semibold text-sec">Game Faqs</h4>
-                                            <div class="text-xs text-tri">143 ratings</div>
-                                        </div>
-                                        <div class="grow-0 shrink-0 text-lg text-sec font-bold">8.4</div>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="flex items-center py-2">
-                                        <div class="grow-0 shrink-0 w-10 h-10 aspect-square bg-[url(https://cdn2.whatoplay.com/logo_v2.png)] bg-cover mr-4"></div>
-                                        <div class="grow shrink">
-                                            <h4 class="font-semibold text-sec">whatoplay</h4>
-                                            <div class="text-xs text-tri">39 ratings</div>
-                                        </div>
-                                        <div class="grow-0 shrink-0 text-lg text-sec font-bold">8.9</div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div> -->
-                        
                         <a href="#" title="Read all critic reviews" class="flex text-act btn-base items-center justify-center">
-                            <span class="text-sm pr-3">See all player reviews</span>
+                            <span class="text-sm pr-3">View all community reviews</span>
                             <span class="material-symbols-rounded text-lg">arrow_right_alt</span>
                         </a>
                     </section>
 
-                    <div class="mb-10">
+                    <div class="mb-10 lg:mb-12">
                         <h2 class="shrink grow text-sec font-semibold text-xl">About the game</h2>
                         <hr class="mt-2 mb-4 border-sep">
     
