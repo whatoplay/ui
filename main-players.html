@@ -100,7 +100,7 @@
                 </nav>
             </section>
 
-            <main class="grid grid-cols-12 col-span-12 md:col-span-10 max-w-7xl gap-8 mx-auto">
+            <main class="grid grid-cols-12 col-span-12 md:col-span-10 w-full max-w-7xl gap-8 mx-auto">
 
                 <div class="col-span-12">
                     <a href="main.html" class="flex items-center mb-4 text-act text-sm" title="Sky: Children of the Light Details Page">
@@ -498,22 +498,5 @@
                 </div>
             </main>
         </div>
-
-
-        <script>
-            // Simple code to toggle Platform List on the Main navigational menu
-
-            const menuPlatformsBtn = document.getElementById('menu-platforms');
-            const menuPlatformsLis = document.getElementById('menu-platforms-list');
-            const menuPlatformMoreIcon = document.getElementById('menu-platforms-more-icon');
-            const menuPlatformLessIcon = document.getElementById('menu-platforms-less-icon');
-
-            menuPlatformsBtn.addEventListener("click", () => {
-                menuPlatformsLis.classList.toggle('block');
-                menuPlatformsLis.classList.toggle('hidden');
-                menuPlatformMoreIcon.classList.toggle('hidden');
-                menuPlatformLessIcon.classList.toggle('hidden');
-            });
-        </script>
     </body>
 </html>
