@@ -27,7 +27,8 @@
                             sec: '#D0D2DB',
                             tri: '#9CA3AF',
                             sep: '#2D303D',
-                            act: '#34D399',
+                            act: '#00BD6D',
+                            hov: '#00BD10',
                             mai: '#252836',
                             sup: '#212230',
                             gre: '#22C55E',
@@ -46,13 +47,15 @@
 
     </head>
     <body>
-        <header class="bg-mai py-3 px-11 shadow-lg">
-            <a href="#" class="flex items-center">
-                <div class="h-[32px] w-[32px] rounded-full overflow-hidden">
-                    <img src="https://cdn2.whatoplay.com/logo_v2.png" alt="whatoplay logo" class="w-full">
+        <header class="py-3 px-11 shadow-lg box-border border-b border-sep flex">
+            <a href="#" class="grow shrink flex items-center">
+                <div class="h-[28px] w-[28px]">
+                    <img src="img/logo.png" alt="whatoplay logo" class="w-full">
                 </div>
                 <div class="mx-3 text-pri text-lg font-bold tracking-wide hidden md:block">whatoplay</div>
             </a>
+
+            <div class="grow shrink"></div>
         </header>
 
         <div class="grid grid-cols-12 p-4">
@@ -142,7 +145,7 @@
                                 <div class="widget-profile-pic rounded-full overflow-hidden w-[40px] h-[40px] mr-4 bg-[url(https://cdn6.whatoplay.com/user/256x/dSU5tDwTk/profile-llHYN9FEtxAPYGkN6gI6RIhba2jeIBMQ.webp)] bg-cover">
                                 </div>
                                 <div>
-                                    <div class="text-pri font-semibold flex">Maruf Hasan</div>
+                                    <div class="text-pri font-semibold">Maruf Hasan</div>
                                     <div class="text-tri text-xs font-normal"><span class="font-bold text-blu">Review</span> &bull; 30 mins ago</div>
                                 </div>
                             </a>
@@ -227,7 +230,7 @@
                                 <div class="widget-profile-pic rounded-full overflow-hidden w-[40px] h-[40px] mr-4 bg-[url(https://cdn6.whatoplay.com/user/256x/WhHDVkDXr/profile-dq2SJMbDxgq05MDAqTPFB3ke2lzj1EN6.webp)] bg-cover">
                                 </div>
                                 <div>
-                                    <div class="text-pri font-semibold flex">AlphaxLeonidas</div>
+                                    <div class="text-pri font-semibold">AlphaxLeonidas</div>
                                     <div class="text-tri text-xs font-normal"><span class="font-bold text-blu">Review</span> &bull; 13 hours ago</div>
                                 </div>
                             </a>
@@ -289,7 +292,7 @@
                                 <div class="widget-profile-pic rounded-full overflow-hidden w-[40px] h-[40px] mr-4 bg-[url(https://cdn6.whatoplay.com/user/256x/iEN1vv5m2/profile-nlxKqhekM8xBQwRlzimfuibLQ4yhbWWL.webp)] bg-cover">
                                 </div>
                                 <div>
-                                    <div class="text-pri font-semibold flex">KK T</div>
+                                    <div class="text-pri font-semibold">KK T</div>
                                     <div class="text-tri text-xs font-normal"><span class="font-bold text-blu">Discuss</span> &bull; 2 days ago</div>
                                 </div>
                             </a>
@@ -345,7 +348,7 @@
                                 <div class="widget-profile-pic rounded-full overflow-hidden w-[40px] h-[40px] mr-4 bg-[url(https://cdn6.whatoplay.com/user/256x/hkN9ghgH9/profile-VRamWRk_cxVqjPuD2pCdWoQwhB0N8YKI.webp)] bg-cover">
                                 </div>
                                 <div>
-                                    <div class="text-pri font-semibold flex">Dewstend</div>
+                                    <div class="text-pri font-semibold">Dewstend</div>
                                     <div class="text-tri text-xs font-normal"><span class="font-bold text-blu">Playlist</span> &bull; 15 days ago</div>
                                 </div>
                             </a>
@@ -401,114 +404,55 @@
             </main>
     
             <section class="contain-right col-span-12 md:col-span-3 pt-6">
-                <aside class="bg-mai pt-4 rounded-lg shadow md:max-w-[336px]">
-                    <h2 class="text-sec font-bold mb-3 px-4">Trending games</h2>
+                <aside class="md:max-w-[336px]">
+                    <h2 class="text-sec text-lg mb-2">Trending games</h2>
+                    <hr class="mt-2 mb-2 border-sep">
 
-                    <ul class="mb-3">
-                        <li class="px-2">
-                            <a href="#" class="flex p-2 hover:bg-sup rounded-lg">
-                                <div class="trending-box aspect-square bg-[url('https://cdn2.whatoplay.com/boxart/sqr/150x/132897-1699863884.webp')] bg-cover w-[48px] grow-0 shrink-0 overflow-hidden rounded mr-2"></div>
-                                <div class="trending-inf grow">
-                                    <h3 class="text-pri text-xs font-bold py-1">INDIKA</h3>
-                                    <div class="text-xs text-tri">
-                                        <span class="font-bold text-gre mr-[2px]">8.4</span>
-                                        &bull;
-                                        <span class="ml-[2px] font-normal">PC</span>
-                                    </div>
+                    <ul>
+                        <li class="py-2">
+                            <a href="#" class="group flex">
+                                <div class="shrink-0 grow-0 h-[72px] w-[72px] overflow-hidden rounded bg-[url(https://cdn2.whatoplay.com/boxart/sqr/150x/654-1520397663.webp)] bg-cover mr-4"></div>
+
+                                <div class="shrink grow pt-1 pr-4">
+                                    <h3 class="text-pri font-semibold text-base leading-snug line-clamp-2 mb-1 group-hover:text-act">Trine 2</h3>
+                                    <div class="text-tri leading-snug text-xs">PC PS4 XSX 2+</div>
                                 </div>
+                                <div class="text-xl font-bold text-gre leading-none pt-2">8.2</div>
                             </a>
                         </li>
 
-                        <li class="px-2">
-                            <a href="#" class="flex p-2 hover:bg-sup rounded-lg">
-                                <div class="trending-box aspect-square bg-[url('https://cdn2.whatoplay.com/boxart/sqr/150x/11689-1689929431255.webp')] bg-cover w-[48px] h-[48px] grow-0 shrink-0 overflow-hidden rounded mr-3"></div>
-                                <div class="trending-inf">
-                                    <h3 class="text-pri text-xs font-bold py-1">Sea of Thieves</h3>
-                                    <div class="text-xs text-tri">
-                                        <span class="font-bold text-gre mr-[2px]">9.1</span>
-                                        &bull;
-                                        <span class="ml-[2px] font-normal">PS5</span>
-                                    </div>
+                        <li class="py-2">
+                            <a href="#" class="group flex">
+                                <div class="shrink-0 grow-0 h-[72px] w-[72px] overflow-hidden rounded bg-[url(https://cdn2.whatoplay.com/boxart/sqr/150x/21496-1604542113.webp)] bg-cover mr-4"></div>
+
+                                <div class="shrink grow pt-1 pr-4">
+                                    <h3 class="text-pri font-semibold text-base leading-snug line-clamp-2 mb-1 group-hover:text-act">Knights and Bikes</h3>
+                                    <ul class="flex gap-1 text-xs text-tri leading-snug">
+                                        <div class="text-tri leading-snug text-xs">PC, Switch</div>
+                                    </ul>
                                 </div>
+                                <div class="text-xl font-bold text-gre leading-none pt-2">8.0</div>
                             </a>
                         </li>
 
-                        <li class="px-2">
-                            <a href="#" class="flex p-2 hover:bg-sup rounded-lg">
-                                <div class="trending-box aspect-square bg-[url('https://cdn2.whatoplay.com/boxart/reg/150x/60142-1694760583.webp')] bg-cover w-[48px] h-[48px] grow-0 shrink-0 overflow-hidden rounded mr-3"></div>
-                                <div class="trending-inf">
-                                    <h3 class="text-pri text-xs font-bold py-1">Eiyuden Chronicle: Hundred Heroes</h3>
-                                    <div class="text-xs text-tri">
-                                        <span class="font-bold text-yel mr-[2px]">7.8</span>
-                                        &bull;
-                                        <span class="ml-[2px] font-normal">PC</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
+                        <li class="py-2">
+                            <a href="#" class="group flex">
+                                <div class="shrink-0 grow-0 h-[72px] w-[72px] overflow-hidden rounded bg-[url(https://cdn2.whatoplay.com/boxart/sqr/150x/19074-1571665481.webp)] bg-cover mr-4"></div>
 
-                        <li class="px-2">
-                            <a href="#" class="flex p-2 hover:bg-sup rounded-lg">
-                                <div class="trending-box aspect-square bg-[url('https://cdn2.whatoplay.com/boxart/reg/150x/60142-1694760583.webp')] bg-cover w-[48px] h-[48px] grow-0 shrink-0 overflow-hidden rounded mr-3"></div>
-                                <div class="trending-inf">
-                                    <h3 class="text-pri text-xs font-bold py-1">Eiyuden Chronicle: Hundred Heroes</h3>
-                                    <div class="text-xs text-tri">
-                                        <span class="font-bold text-gre mr-[2px]">8.7</span>
-                                        &bull;
-                                        <span class="ml-[2px] font-normal">PS5</span>
-                                    </div>
+                                <div class="shrink grow pt-1 pr-4">
+                                    <h3 class="text-pri font-semibold text-base leading-snug line-clamp-2 mb-1 group-hover:text-act">Nine Parchments</h3>
+                                    <ul class="flex gap-1 text-xs text-tri leading-snug">
+                                        <div class="text-tri leading-snug text-xs">PC, PS5, Switch</div>
+                                    </ul>
                                 </div>
-                            </a>
-                        </li>
-
-                        <li class="px-2">
-                            <a href="#" class="flex p-2 hover:bg-sup rounded-lg">
-                                <div class="trending-box aspect-square bg-[url('https://cdn2.whatoplay.com/boxart/reg/150x/60142-1694760583.webp')] bg-cover w-[48px] h-[48px] grow-0 shrink-0 overflow-hidden rounded mr-3"></div>
-                                <div class="trending-inf">
-                                    <h3 class="text-pri text-xs font-bold py-1">Eiyuden Chronicle: Hundred Heroes</h3>
-                                    <div class="text-xs text-tri">
-                                        <span class="font-bold text-yel mr-[2px]">7.4</span>
-                                        &bull;
-                                        <span class="ml-[2px] font-normal">Series X|S</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li class="px-2">
-                            <a href="#" class="flex p-2 hover:bg-sup rounded-lg">
-                                <div class="trending-box aspect-square bg-[url('https://cdn2.whatoplay.com/boxart/reg/150x/151191-1711413596.webp')] bg-cover w-[48px] h-[48px] grow-0 shrink-0 overflow-hidden rounded mr-3"></div>
-                                <div class="trending-inf">
-                                    <h3 class="text-pri text-xs font-bold py-1">Teenage Mutant Ninja Turtles Arcade: Wrath of the Mutants</h3>
-                                    <div class="text-xs text-tri">
-                                        <span class="font-bold text-yel mr-[2px]">6.3</span>
-                                        &bull;
-                                        <span class="ml-[2px] font-normal">PC</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li class="px-2">
-                            <a href="#" class="flex p-2 hover:bg-sup rounded-lg">
-                                <div class="trending-box aspect-square bg-[url('https://cdn2.whatoplay.com/boxart/sqr/150x/152874_1713341219.webp')] bg-cover w-[48px] h-[48px] grow-0 shrink-0 overflow-hidden rounded mr-3"></div>
-                                <div class="trending-inf">
-                                    <h3 class="text-pri text-xs font-bold py-1">Rusty's Retirement</h3>
-                                    <div class="text-xs text-tri">
-                                        <span class="font-bold text-gre mr-[2px]">9.0</span>
-                                        &bull;
-                                        <span class="ml-[2px] font-normal">PC</span>
-                                    </div>
-                                </div>
+                                <div class="text-xl font-bold text-yel leading-none pt-2">6.2</div>
                             </a>
                         </li>
                     </ul>
 
-                    <a href="#" title="Read all critic reviews" class="link-gen flex btn-base px-4 pb-2">
-                        <span class="inline-flex text-xs grow">New game releases</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="currentColor" viewBox="0 -960 960 960" class="h-6 w-6 shrink-0 ml-2">
-                            <path d="M646-440H200q-17 0-28.5-11.5T160-480q0-17 11.5-28.5T200-520h446L532-634q-12-12-11.5-28t11.5-28q12-12 28.5-12.5T589-691l183 183q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L589-269q-12 12-28.5 11.5T532-270q-11-12-11.5-28t11.5-28l114-114Z"></path>
-                        </svg>
+                    <a href="#" title="Read all critic reviews" class="flex text-act btn-base items-center">
+                        <span class="text-sm pr-3">New game releases</span>
+                        <span class="material-symbols-rounded text-lg">arrow_right_alt</span>
                     </a>
                 </aside>
 

@@ -13,19 +13,6 @@ body {
     box-sizing: border-box;
 }
 
-
-/*
-    CONTENT BOXES
-*/
-
-.box-main {
-    background-color: #252836;
-}
-
-.box-sup {
-    background-color: #212230;
-}
-
 /*
     BUTTONS
 */
