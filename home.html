@@ -47,7 +47,7 @@
 
     </head>
     <body>
-        <header class="py-3 px-11 shadow-lg box-border border-b border-sep flex items-center">
+        <header class="py-3 px-4 lg:px-11 shadow-lg box-border border-b border-sep flex items-center">
             <a href="#" class="grow-0 shrink-0 flex items-center">
                 <div class="h-[28px] w-[28px]">
                     <img src="img/logo.png" alt="whatoplay logo" class="w-full">
@@ -68,60 +68,52 @@
         <div class="grid grid-cols-12 p-4">
             <section class="contain-left col-span-12 md:col-span-2 pt-3">
                 <nav class="menu-pri py-4 px-2 rounded-lg md:max-w-[336px]">
-                    <ul class="tracking-wide">
-                        <li>
-                            <div class="flex items-center py-2 px-4">
-                                <span class="material-symbols-rounded text-act mr-4 text-2xl">sports_esports</span>    
-                                <span class="text-base text-pri font-bold">Games</span>
-                            </div>
-                            <ul class="text-sm">
-                                <li><a href="#" class="block pl-14 py-2 text-sec hover:bg-sup rounded-lg" title="Best video games">Best</a></li>
-                                <li><a href="#" class="block pl-14 py-2 text-sec hover:bg-sup rounded-lg" title="New game releases">New</a></li>
-                                <li><a href="#" class="block pl-14 py-2 text-sec hover:bg-sup rounded-lg" title="Upcoming games">Upcoming</a></li>
-                                <li><a href="#" class="block pl-14 py-2 text-sec hover:bg-sup rounded-lg" title="Free games">Free</a></li>
-                                <li>
-                                    <button id="menu-platforms" class="flex pl-14 pr-6 w-full text-left py-2 text-sec hover:bg-sup rounded-lg items-center">
-                                        <div class="mr-8">Platforms</div>
-                                        <span id="menu-platforms-more-icon" class="material-symbols-rounded text-base">expand_more</span>
-                                        <span id="menu-platforms-less-icon" class="material-symbols-rounded text-base hidden">expand_less</span>
-                                    </button>
-                                    <ul id="menu-platforms-list" class="hidden">
-                                        <li><a href="#" class="block pl-14 py-2 text-tri hover:bg-sup rounded-lg" title="PC games">PC</a></li>
-                                        <li><a href="#" class="block pl-14 py-2 text-tri hover:bg-sup rounded-lg" title="PS5 games">PlayStation 5</a></li>
-                                        <li><a href="#" class="block pl-14 py-2 text-tri hover:bg-sup rounded-lg" title="Xbox Series X and Series S games">Xbox Series X|S</a></li>
-                                        <li><a href="#" class="block pl-14 py-2 text-tri hover:bg-sup rounded-lg" title="Nintendo Switch games">Nintendo Switch</a></li>
-                                        <li><a href="#" class="block pl-14 py-2 text-tri hover:bg-sup rounded-lg" title="PS4 games">PlayStation 4</a></li>
-                                        <li><a href="#" class="block pl-14 py-2 text-tri hover:bg-sup rounded-lg" title="Xbox One games">Xbox One</a></li>
-                                        <li><a href="#" class="block pl-14 py-2 text-tri hover:bg-sup rounded-lg" title="Android games">Android</a></li>
-                                        <li><a href="#" class="block pl-14 py-2 text-tri hover:bg-sup rounded-lg" title="iPhone and iPad games">iOS</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <div class="flex items-center py-2 px-4">
-                                <span class="material-symbols-rounded text-act mr-4 text-2xl">groups</span>    
-                                <span class="text-base text-pri font-bold">Community</span>
-                            </div>
-                            <ul class="text-sm">
-                                <li><a href="#" class="block pl-14 py-2 text-sec hover:bg-sup rounded-lg" title="Game reviews by the whatoplay community">Reviews</a></li>
-                                <li><a href="#" class="block pl-14 py-2 text-sec hover:bg-sup rounded-lg" title="Game discussions by the whatoplay community">Discussions</a></li>
-                                <li><a href="#" class="block pl-14 py-2 text-sec hover:bg-sup rounded-lg" title="Game lists by the whatoplay community">Playlists</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#" class="flex items-center py-2 px-4 hover:bg-sup rounded-lg" title="Game finder - advanced video game search">
-                                <span class="material-symbols-rounded text-act mr-4 text-2xl">manage_search</span>
-                                <span class="text-base text-pri font-bold">Game finder</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="flex items-center py-2 px-4 hover:bg-sup rounded-lg" title="Latest gaming news, articles, and guides">
-                                <span class="material-symbols-rounded text-act mr-4 text-2xl">newsmode</span>
-                                <span class="text-base text-pri font-bold">News & Articles</span>
-                            </a>
-                        </li>
-                    </ul>
+                    <nav class="menu-pri py-4 px-2 rounded-lg md:max-w-[336px]">
+                        <ul class="text-base font-semibold space-y-2">
+                            <li>
+                                <a href="#" class="flex items-center py-2 px-4 hover:bg-mai rounded-lg" title="Video games">
+                                    <span class="material-symbols-rounded text-act mr-6 text-2xl">games</span>
+                                    <span class="text-sec">Games</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="flex items-center py-2 px-4 hover:bg-mai rounded-lg" title="Best games of all time">
+                                    <span class="material-symbols-rounded text-act mr-6 text-2xl">emoji_events</span>
+                                    <span class="text-sec">Rankings</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="flex items-center py-2 px-4 hover:bg-mai rounded-lg" title="New video games">
+                                    <span class="material-symbols-rounded text-act mr-6 text-2xl">new_releases</span>
+                                    <span class="text-sec">New</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="flex items-center py-2 px-4 hover:bg-mai rounded-lg" title="Upcoming video games">
+                                    <span class="material-symbols-rounded text-act mr-6 text-2xl">event</span>
+                                    <span class="text-sec">Upcoming</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="flex items-center py-2 px-4 hover:bg-mai rounded-lg" title="Game finder - advanced video game search">
+                                    <span class="material-symbols-rounded text-act mr-6 text-2xl">manage_search</span>
+                                    <span class="text-sec">Game finder</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="flex items-center py-2 px-4 hover:bg-mai rounded-lg" title="Game finder - advanced video game search">
+                                    <span class="material-symbols-rounded text-act mr-6 text-2xl">groups</span>
+                                    <span class="text-sec">Community</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="flex items-center py-2 px-4 hover:bg-mai rounded-lg" title="Latest gaming news, articles, and guides">
+                                    <span class="material-symbols-rounded text-act mr-6 text-2xl">newsmode</span>
+                                    <span class="text-sec">News and Articles</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
                 </nav>
             </section>
 
@@ -173,7 +165,7 @@
                     </div>
                 </div>
     
-                <div class="content ig-container rounded-lg overflow-hidden shadow mb-8">
+                <div class="content ig-container bg-mai rounded-lg overflow-hidden shadow mb-8">
                     <div class="box-main py-3 px-6">
                         <h2 class="font-semibold text-lg mb-3">
                             <a href="#" class="!text-sec">Games releasing today</a>
@@ -209,16 +201,16 @@
                 
                 <div class="content ig-container mb-8">
                     <h2 class="text-sec font-semibold text-lg mb-2">Popular game lists</h2>
-                    <ul class="list-none flex flex-wrap gap-x-8 gap-y-2">
-                        <li><a href="#" class="text-[14px] font-normal">New iOS Games</a></li>
-                        <li><a href="#" class="text-[14px] font-normal">Best PS5 Games</a></li>
-                        <li><a href="#" class="text-[14px] font-normal">Upcoming Switch Games</a></li>
-                        <li><a href="#" class="text-[14px] font-normal">Best PS4 Games of All Time</a></li>
-                        <li><a href="#" class="text-[14px] font-normal">New Android games</a></li>
+                    <ul class="list-none flex flex-wrap gap-x-8 gap-y-2 font-semibold">
+                        <li><a href="#" class="text-sm">New iOS Games</a></li>
+                        <li><a href="#" class="text-sm">Best PS5 Games</a></li>
+                        <li><a href="#" class="text-sm">Upcoming Switch Games</a></li>
+                        <li><a href="#" class="text-sm">Best PS4 Games of All Time</a></li>
+                        <li><a href="#" class="text-sm">New Android games</a></li>
                     </ul>
                 </div>
 
-                <div class="content ig-container rounded-lg overflow-hidden shadow mb-8">
+                <div class="content ig-container bg-mai rounded-lg overflow-hidden shadow mb-8">
                     <div class="box-main py-3">
                         <div class="flex widget-header py-2 px-4 md:px-6">
                             <a href="#" class="widget-profile grow shrink flex items-center">
